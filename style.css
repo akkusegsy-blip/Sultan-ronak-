@@ -1,0 +1,129 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{"pic1.jpg">
+background:-image:url("wallpaper.jpg");
+background-size:cover;
+background-position:center;
+color:white;}
+text-align:center;
+}
+
+/* Title */
+
+.title{𝐒𝐔𝐋𝐓𝐀𝐍🎀𝐑𝐎𝐍𝐀𝐊
+font-size:40px;
+margin-top:20px;
+color:#ff4da6;
+text-shadow:0 0 20px #ff4da6;
+}
+
+/* Romantic line */𝐓𝐖𝐎 𝐇𝐄𝐀𝐑𝐓𝐒, 𝐎𝐍𝐄 𝐒𝐎𝐔𝐋😭💞
+
+.tagline{"𝐄𝐕𝐄𝐑𝐘 𝐋𝐎𝐕𝐄 𝐒𝐓𝐎𝐑𝐘 𝐈𝐒 𝐁𝐄𝐀𝐓𝐈𝐅𝐔𝐋, 𝐁𝐔𝐓 𝐎𝐔𝐑𝐒 𝐈𝐒 𝐌𝐘 𝐅𝐀𝐕𝐎𝐔𝐑𝐈𝐓𝐄."
+font-size:18px;
+margin-top:10px;
+color:#ddd;
+}
+
+/* Profile Section */"profile-pic">
+
+.profile{"profile.jpg"
+margin-top:30px;
+}
+
+.profile img{"profile.jpg"
+width:140px;
+height:140px;
+border-radius:50%;
+border:4px solid #ff4da6;
+box-shadow:0 0 20px #ff4da6;
+}
+
+.profile h2{"profile.jpg"
+margin-top:10px;
+color:#ff99cc;
+}
+
+/* Gallery */
+
+.gallery{"pic2.jpg">
+width:90%;
+margin:40px auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.gallery img{"pic3.jpg">
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+transition:0.4s;
+box-shadow:0 0 15px rgba(255,0,150,0.4);
+}
+
+.gallery img:hover{"pic4.jpg">
+transform:scale(1.1);
+box-shadow:0 0 25px #ff4da6;
+}
+
+/* Slideshow */
+
+.slideshow{"pic5.jpg">
+width:90%;
+max-width:600px;
+margin:40px auto;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 0 25px #ff4da6;
+}
+
+.slideshow img{"pic6.jpg">
+width:100%;
+height:350px;
+object-fit:cover;
+}
+
+/* Music Player */
+
+.music{"music.mp3">
+margin-top:30px;
+}
+
+audio{"music.mp3">
+width:250px;
+}
+
+/* Footer */
+
+footer{
+margin-top:40px;
+padding:15px;
+background:#111;
+color:#aaa;
+font-size:14px;
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+.title{𝐒𝐔𝐋𝐓𝐀𝐍🎀𝐑𝐎𝐍𝐀𝐊
+font-size:28px;
+}
+
+.gallery img{"pic7.jpg">
+height:200px;
+}
+
+.slideshow img{"pic8.jpg">
+height:250px;
+}
+
+}
